@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom'
 import './Nav.scss'
 import { NavLink } from 'react-router-dom';
 const Nav = () => {
-    let activeClassName = "flex-sm-fill text-sm-left ps-sm-2  nav-link bg-secondary text-primary rounded-end";
-    let notActiveClassName = "ps-sm-0 ps-lg-2 nav-link ";
+    let activeClassName = "flex-sm-fill text-sm-left ps-sm-2  nav-link bg-info text-light rounded-end border-info shadow-sm";
+    let notActiveClassName = "ps-sm-0 ps-lg-2 nav-link text-info";
   return (
     
          
-          <div className='mt-4   pe-1 ' style={{ height: 500 }} >
+          <div className='mt-4    ' style={{ height: 500 }} >
           <ul className="navbar-nav flex-column p-0 utilities-nav">
                   <li className="nav-item">
                       <div className="ms-1 me-auto">
@@ -49,7 +49,7 @@ const Nav = () => {
                           <NavLink className={({ isActive }) =>
                               isActive ? activeClassName : notActiveClassName
                           } to={`/utilities/declineCodes`}>
-                              <i className="bi bi-code fs-5 text-primary me-2"></i>
+                              <i className="bi bi-code fs-5  me-2"></i>
                              
                           <div className='d-none d-lg-inline'> Decline Reasons
                               </div> 

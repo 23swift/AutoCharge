@@ -16,8 +16,8 @@ const MainNav = () => {
     //     ,color:'var(--bs-link-color)'
     //     ,fontWeight:'bold'
     // };
-    let activeClassName = "flex-sm-fill text-sm-left ps-2 nav-link bg-primary text-secondary ";
-    let notActiveClassName ="flex-sm-fill text-sm-left ps-2 nav-link ";
+    let activeClassName = "flex-sm-fill text-sm-left ps-2 nav-link bg-secondary text-primary  border-secondary shadow-sm ";
+    let notActiveClassName ="flex-sm-fill text-sm-left ps-2 nav-link";
     return (
         <div>
 
@@ -58,7 +58,7 @@ const MainNav = () => {
                         </NavLink>
                             </li>
                             <li className="nav-item mx-1">
-                                <a  id='trans' className="flex-sm-fill text-sm-left ps-sm-2 nav-link" href="#">Transasctions</a>
+                                <a  id='trans' className="flex-sm-fill text-sm-left ps-sm-2 nav-link " href="#">Transasctions</a>
                             </li>
                             <li className="nav-item mx-1">
                                 <a  id='sec' className="flex-sm-fill text-sm-left ps-sm-2 nav-link ">Security</a>
@@ -69,7 +69,7 @@ const MainNav = () => {
                         </ul>
                        <form className="d-flex w-100">
                         <input className="form-control me-2 w-100" type="search" placeholder="Please enter the card number" aria-label="Search" />
-                        <button className="btn btn-secondary btn-sm" type="submit">
+                        <button className="btn btn-info btn-sm px-3" type="submit">
                             
                                 <i className="bi bi-search"></i></button>
                     </form>

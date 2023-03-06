@@ -10,7 +10,7 @@ const UtilitiesMain = () => {
         <div className='container-fluid'>
            {/* <PageHeader title='Utilities'/> */}
                        <div className="row align-items-start ">
-                <div className="col-2    rounded-bottom bg-light  d-none d-lg-inline  "  >
+                <div className="col-2    rounded-bottom  border bg-light  d-none d-lg-inline  "  >
                   
                     <Nav/>   
                     

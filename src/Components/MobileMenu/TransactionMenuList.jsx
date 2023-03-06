@@ -2,8 +2,8 @@ import React from 'react'
 import { NavLink } from 'react-router-dom';
 
 const TransactionMenuList = () => {
-    let activeClassName = " flex-sm-fill text-sm-left   nav-link  text-primary bg-secondary rounded p-1";
-    let notActiveClassName = "  nav-link p-1 ";
+    let activeClassName = " flex-sm-fill text-sm-left   nav-link  text-primary bg-secondary rounded p-1 text-info";
+    let notActiveClassName = "  nav-link p-1 text-info";
   return (
       <ul className="list-group list-group-flush">
           <li className="list-group-item d-flex justify-content-between align-items-start">

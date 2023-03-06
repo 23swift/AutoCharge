@@ -3,8 +3,8 @@ import { NavLink } from 'react-router-dom';
 
 const UtilitiesMenuList = () => {
 
-    let activeClassName = "flex-sm-fill text-sm-left   nav-link  text-primary  text-decoration-underline py-1  p-1";
-    let notActiveClassName = " nav-link p-1";
+    let activeClassName = "flex-sm-fill text-sm-left   nav-link  text-primary  text-decoration-underline py-1  p-1 text-info";
+    let notActiveClassName = " nav-link p-1 text-info";
   return (
       <ul className="list-group list-group-flush w-100">
           <li className="list-group-item d-flex justify-content-between align-items-start">
